@@ -3,7 +3,6 @@ num2 = list(map(int, input().split()))
 nou1 = 0
 nou2 = 0
 x = 0
-print(len(num1))
 while x < len(num1):
     
     if num1[x] != 0 and x == 0:
@@ -18,7 +17,7 @@ while x < len(num1):
     
     x += 1
 
-
-print(num1)
-print(nou1)
-print(nou2)
+if nou1 < nou2:
+    print("1")
+else:
+    print("2")
